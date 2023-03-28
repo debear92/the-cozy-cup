@@ -26,7 +26,7 @@ h1 {
     float: left;
     font-size: 150%;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 #menu, #logo {
@@ -54,4 +54,24 @@ h1 {
 
 .active {
     border-bottom: 1px solid #552b15;
+}
+
+#reservation  {
+    float: right;
+}
+
+#reservation a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 120%;
+    color: #552b15;
+    background-color: #f3ebe8;
+    border: 1px solid #552b15;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#reservation a:hover {
+    border: 3px solid #552b15;
 }
