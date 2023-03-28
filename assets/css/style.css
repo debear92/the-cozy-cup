@@ -24,20 +24,22 @@ h1 {
 
 #logo {
     float: left;
-    font-size: 180%;
+    font-size: 150%;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 40px;
+}
+
+#menu, #logo {
+    line-height: 75px;
 }
 
 #menu li {
-    font: 100%;
+    font: 120%;
     font-weight: 600;
     letter-spacing: 1px;
     list-style-type: none;
     display: inline-block;
-    margin-left: 40px;
-    margin-top: 10px;
-    
+    margin-left: 60px;
 }
 
 #menu a {
