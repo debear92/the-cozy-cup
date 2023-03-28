@@ -19,7 +19,7 @@ h1 {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #7e4e36;
+    color: #552b15;
 }
 
 #logo {
@@ -27,4 +27,29 @@ h1 {
     font-size: 180%;
     text-decoration: none;
     margin-left: 20px;
+}
+
+#menu li {
+    font: 100%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+
+#menu a {
+    text-decoration: none;
+    color: #7e4e36;
+}
+
+#menu a:hover {
+    color: #a8745a;
+    border-bottom: 1px solid #552b15;
+}
+
+.active {
+    border-bottom: 1px solid #552b15;
 }
