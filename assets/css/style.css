@@ -11,14 +11,11 @@ body {
     font-family: 'DM Sans', sans-serif;
     font-weight: 300;
     color: #1f2937;
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
 /*header*/
-
-header {
-    width: 100%;
-    display: flex;
-}
 
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
@@ -28,23 +25,29 @@ h1, h2, h3 {
 }
 
 #logo {
-    align-items: flex-start;
-    font-size: 150%;
+    font-size: 200%;
     text-decoration: none;
-    margin-left: 20px;
+    float: left;
+    margin-left: 1.875rem;
 }
 
 #menu, #logo #reservation {
-    line-height: 75px;
+    line-height: 5rem;
+}
+
+#menu {
+    font-size: 100%;
+    font-weight: 600;
+    letter-spacing: 0.125rem;
+    margin-left: 1.875rem;
+    float: right;
 }
 
 #menu li {
-    font: 120%;
-    font-weight: 600;
-    letter-spacing: 1px;
+    float: left;
     list-style-type: none;
-    display: inline-block;
-    margin-left: 60px;
+    margin-left: 1.875rem;
+    margin-top: 1rem;
 }
 
 #menu a {
@@ -61,28 +64,6 @@ h1, h2, h3 {
     border-bottom: 1px solid #552b15;
 }
 
-#reservation {
-    position: fixed;
-    top: 30px;
-    right: 20px;
-}
-
-#reservation a {
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 120%;
-    color: #552b15;
-    background-color: #f3ebe8;
-    border: 1px solid #552b15;
-    border-radius: 8px;
-    padding: 10px;
-    
-}
-
-#reservation a:hover {
-    border: 3px solid #552b15;
-}
 
 /*hero*/
 
@@ -91,12 +72,14 @@ h1, h2, h3 {
     width: 100%;
     overflow: hidden;
     position: relative;
+    padding: 1rem;
 }
 
 #hero-image {
     height: 37.5rem;
     width: 100%;
     background: url('../images/hero.webp') no-repeat center center ;
+    background-size: cover;
 }
 
 #hero-text {
