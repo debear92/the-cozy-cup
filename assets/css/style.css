@@ -91,3 +91,13 @@ h1, h2, h3 {
     left: 50%;
     text-align: center;
 }
+
+#hero-text h2 {
+    font-size: 150%;
+}
+
+#hero-text h3 {
+    font-size: 450%;
+    line-height: 1;
+    padding-top: 1.875rem;
+}
