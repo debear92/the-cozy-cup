@@ -101,3 +101,17 @@ h1, h2, h3 {
     line-height: 1;
     padding-top: 1.875rem;
 }
+
+#hero-text a {
+    background-color: #d49c81;
+    border: 1px solid #552b15;
+    border-radius: 5px;
+    color: #7e4e36;
+    padding: 1.25rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
