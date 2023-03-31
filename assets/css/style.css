@@ -193,12 +193,12 @@ h1, h2, h3 {
 }
 
 .flip-card-back h1 {
-    padding-top: 1.875rem;
+    padding: 1.875rem;
     text-align: center;
 }
 
 .flip-card-back p {
-    text-align: center;
+    font-size: 1.25rem;
 }
 
 #card-container {
