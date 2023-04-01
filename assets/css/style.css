@@ -214,3 +214,18 @@ footer {
     height: 18.67rem;
     width: 100%;
 }
+
+footer li{
+    list-style: none;
+}
+
+footer h3 {
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+#social-media-links i {
+    color: #7e4e36;
+    font-size: 150%;
+    margin: 0.25rem;
+}
