@@ -231,11 +231,17 @@ footer h3 {
 #social-media-links i {
     color: #7e4e36;
     font-size: 150%;
-    margin: 0.25rem;
+    margin: 0.75rem;
+    text-align: center;
 }
 
 #social-media-links>li {
     display: inline;
+    text-align: center;
+}
+
+#social-media-links {
+    text-align: center;
 }
 
 #footer-container {
@@ -258,4 +264,14 @@ footer h3 {
     display: inline-block;
     margin: 0 auto;
     text-align: left;
+}
+
+#get-in-touch {
+    padding-top: 1rem;
+}
+
+.footer-disclaimer {
+    padding-top: 4rem;
+    bottom: 1.875rem;
+    font-size: small;
 }
