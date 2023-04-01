@@ -192,7 +192,7 @@ h1, h2, h3 {
     padding-right: 1.875rem;
 }
 
-.flip-card-back h1 {
+.flip-card-back h2 {
     padding: 1.875rem;
     text-align: center;
 }
@@ -207,4 +207,10 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*footer*/
+footer {
+    height: 18.67rem;
+    width: 100%;
 }
