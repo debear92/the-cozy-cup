@@ -11,7 +11,7 @@ body {
     font-family: 'DM Sans', sans-serif;
     font-weight: 300;
     color: #1f2937;
-    max-width: 2000px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -127,7 +127,6 @@ h1, h2, h3 {
     background-color: transparent;
     width: 20rem;
     height: 20rem;
-    border: 1px solid #f1f1f1;
     perspective: 1000px; 
   }
   
@@ -274,4 +273,40 @@ footer h3 {
 .footer-disclaimer {
     padding-top: 4rem;
     font-size: small;
+}
+
+/*media query*/
+@media only screen and (max-width: 1455px) {
+    body{
+        max-width: 1200px;
+    }
+
+    #hero-text h2 {
+        font-size: 200%;
+        padding-top: 2.5rem;
+    }
+
+    #hero-text #button {
+        padding: 1.2rem;
+        font-size: 1.2rem;
+        margin-top: 1.25rem;
+    }
+
+    .flip-card {
+    width: 15rem;
+    height: 15rem;
+    }
+
+    .flip-card-img {
+    width: 15rem;
+    height: 15rem; 
+    }
+
+    .flip-card-back h2 {
+        padding: 1rem;
+    }
+
+    .flip-card-back p {
+        font-size: 1rem;
+    }
 }
