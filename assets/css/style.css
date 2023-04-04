@@ -209,6 +209,19 @@ h1, h2, h3 {
     align-items: center;
 }
 
+/* about us page */
+#our-story {
+    width: 100%;
+    overflow: hidden;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /*footer*/
 footer {
     height: 18.67rem;
@@ -397,7 +410,7 @@ footer h3 {
         padding-top: 1rem;
         padding-top: 1rem;
     }
-    
+
     #footer-container {
         width: 20rem;
         float: none;
