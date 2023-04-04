@@ -221,6 +221,12 @@ h1, h2, h3 {
     align-items: center;
 }
 
+#our-story h2 {
+    font-size: 200%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 
 /*footer*/
 footer {
