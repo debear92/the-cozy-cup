@@ -227,7 +227,44 @@ h1, h2, h3 {
     padding-bottom: 3rem;
 }
 
+#our-story img {
+    width: 25rem;
+    height: 17.68rem;
+}
 
+#first-block-container {
+    margin: 1.25rem 1.25rem 0 0;  
+    overflow: auto;
+}
+
+#first-block-image {
+    float: right;
+}
+
+#first-block-image img {
+    display: block;
+}
+
+#first-block-text {
+    margin-left: 13.125rem;
+}
+
+#second-block-container {
+    margin: 1.25rem 1.25rem 0 0;  
+    overflow: auto;
+}
+
+#second-block-image {
+    float: left;
+}
+
+#second-block-image img {
+    display: block;
+}
+
+#second-block-text {
+    margin-right: 13.125rem;
+}
 /*footer*/
 footer {
     height: 18.67rem;
