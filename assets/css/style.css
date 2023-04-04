@@ -323,7 +323,7 @@ footer h3 {
 
     #card-container {
         width: 100%;
-        height: 33.5rem;
+        height: auto;
     }
 
     .flip-card-back h2 {
@@ -336,12 +336,102 @@ footer h3 {
 }
 
 @media only screen and (max-width: 875px) {
-
     body {
-        max-width: 750px;
+        max-width: 700px;
     }
 
     #footer-container {
-        width: 45rem;
+        width: 40rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        max-width: 400px;
+    }
+
+    #logo {
+        font-size: 150%;
+        text-align: center;
+    }
+
+    #menu{
+        float: none;
+        margin-left: 0;
+        line-height: 3rem;
+    }
+
+    #menu li {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #hero, #hero-image {
+        height: 25rem;
+    }
+
+    #hero-text h2 {
+        font-size: 100%;
+        padding-top: 1rem;
+    }
+    
+    #hero-text #button {
+        padding: 0.75rem;
+        font-size: 0.75rem;
+        margin-top: 0.75rem;
+    }
+
+    #hero-text h2 {
+    font-size: 100%;
+    padding-top: 1rem;
+    }
+
+    #hero-text #button {
+    padding: 0.75rem;
+    font-size: 0.75rem;
+    margin-top: 0.75rem;
+    }
+
+    #card-one, #card-two, #card-three, #card-four {
+        padding-top: 1rem;
+        padding-top: 1rem;
+    }
+    
+    #footer-container {
+        width: 20rem;
+        float: none;
+        text-align: center;
+    }
+
+    .footer-left{
+        float: none;
+        text-align: center;
+    }
+
+    .footer-center{
+        float: none;
+        text-align: center;
+    }
+
+    .footer-right{
+        float: none;
+        text-align: center;
+    }
+
+    .footer-left{
+        float: none;
+        text-align: center;
+    }
+
+    .footer-center{
+        float: none;
+        text-align: center;
+    }
+
+    .footer-disclaimer{
+        float: none;
+        text-align: center;
+        padding-top: 2rem;
     }
 }
