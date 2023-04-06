@@ -234,17 +234,14 @@ h1, h2, h3 {
 
 #our-story-img1 {
     float: right;
-    padding-right: 2rem;
 }
 
 #our-story-img2 {
     float: left;
-    padding-left: 15rem;
 }
 
 #first-block-container p {
-    padding-right: 30rem;
-    padding-left: 15rem;
+    line-height: 1.75rem;
 }
 
 #second-block-container {
@@ -253,8 +250,7 @@ h1, h2, h3 {
 }
 
 #second-block-container p {
-    padding-left: 45rem;
-    padding-right: 2rem;
+    line-height: 1.75rem;
 }
 
 /*footer*/
