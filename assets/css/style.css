@@ -321,6 +321,7 @@ footer h3 {
     line-height: 1.75rem;
     padding-left: 30rem;
 }
+
 /*menu page*/
 #menu-card-section { 
     background: url('../images/menu-page-background.jpeg') no-repeat center center;
@@ -335,6 +336,22 @@ footer h3 {
     align-items: center;  
 }
 
+.menu-card-container { 
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 0 1.25rem;
+    align-items: flex-start;
+}
+
+.menu-card-container div {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-between;
+}
 
 /*media query*/
 @media only screen and (max-width: 1455px) {
