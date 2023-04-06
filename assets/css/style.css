@@ -222,7 +222,7 @@ h1, h2, h3 {
 }
 
 #our-story h2 {
-    font-size: 200%;
+    font-size: 230%;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -254,6 +254,7 @@ h1, h2, h3 {
     line-height: 1.75rem;
     padding-left: 30rem;
 }
+/*menu page*/
 
 /*footer*/
 footer {
@@ -293,7 +294,7 @@ footer h3 {
 #footer-container {
     margin: 0 auto;
     text-align: center;
-    width: 60.96rem;
+    width: 100%;
     padding-top: 1.875rem;
 }
 
@@ -377,7 +378,7 @@ footer h3 {
     }
 
     #footer-container {
-        width: 50.95rem;
+       /* width: 50.95rem; */
     }
 }
 
@@ -387,7 +388,7 @@ footer h3 {
     }
 
     #footer-container {
-        width: 40rem;
+       /* width: 40rem; */
     }
 }
 
@@ -445,7 +446,7 @@ footer h3 {
     }
 
     #footer-container {
-        width: 20rem;
+        /*width: 20rem;*/
         float: none;
         text-align: center;
     }
