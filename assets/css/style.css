@@ -232,39 +232,31 @@ h1, h2, h3 {
     height: 17.68rem;
 }
 
-#first-block-container {
-    margin: 1.25rem 1.25rem 0 0;  
-    overflow: auto;
-}
-
-#first-block-image {
+#our-story-img1 {
     float: right;
+    padding-right: 2rem;
 }
 
-#first-block-image img {
-    display: block;
+#our-story-img2 {
+    float: left;
+    padding-left: 15rem;
 }
 
-#first-block-text {
-    margin-left: 13.125rem;
+#first-block-container p {
+    padding-right: 30rem;
+    padding-left: 15rem;
 }
 
 #second-block-container {
-    margin: 1.25rem 1.25rem 0 0;  
-    overflow: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
-#second-block-image {
-    float: left;
+#second-block-container p {
+    padding-left: 45rem;
+    padding-right: 2rem;
 }
 
-#second-block-image img {
-    display: block;
-}
-
-#second-block-text {
-    margin-right: 13.125rem;
-}
 /*footer*/
 footer {
     height: 18.67rem;
