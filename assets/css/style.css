@@ -376,10 +376,6 @@ footer h3 {
     .flip-card-back h2 {
         font-size: 1.3em;
     }
-
-    #footer-container {
-       /* width: 50.95rem; */
-    }
 }
 
 @media only screen and (max-width: 875px) {
@@ -387,8 +383,12 @@ footer h3 {
         max-width: 700px;
     }
 
-    #footer-container {
-       /* width: 40rem; */
+    #first-block-container p {
+        padding-right: 0;
+    }
+
+    #second-block-container p {
+        padding-left: 0;
     }
 }
 
@@ -446,7 +446,6 @@ footer h3 {
     }
 
     #footer-container {
-        /*width: 20rem;*/
         float: none;
         text-align: center;
     }
