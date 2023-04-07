@@ -209,7 +209,7 @@ h1, h2, h3 {
     align-items: center;
 }
 
-/*footer*/
+/*footer
 footer {
     height: 18.67rem;
 }
@@ -275,7 +275,7 @@ footer h3 {
     padding-top: 4rem;
     font-size: small;
 }
-
+*/
 /* about us page */
 #our-story {
     width: 100%;
@@ -475,7 +475,7 @@ footer h3 {
         padding-top: 1rem;
     }
 
-    #footer-container {
+    /* #footer-container {
         float: none;
         text-align: center;
     }
@@ -510,4 +510,4 @@ footer h3 {
         text-align: center;
         padding-top: 2rem;
     }
-}
+} */
