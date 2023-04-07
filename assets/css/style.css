@@ -323,34 +323,31 @@ footer h3 {
 }
 
 /*menu page*/
-#menu-card-section { 
-    background: url('../images/menu-page-background.jpeg') no-repeat center center;
+
+.menu-container { 
     height: 37.5rem;
     width: 100%;
     overflow: hidden;
-    padding: 5rem;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
 }
 
-.menu-card-container { 
-    display: flex;
-    flex-flow: row wrap;
-    text-align: center;
-    justify-content: space-around;
-    margin: auto;
-    padding: 0 1.25rem;
-    align-items: flex-start;
+#container-coffee {
+    background: url('../images/menu-page-background.jpeg') no-repeat center center;
 }
 
-.menu-card-container div {
+.menu-row {
     display: flex;
-    flex-flow: row wrap;
-    text-align: center;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 15rem;
+}
+
+#menu-col {
+    width: 100%;
 }
 
 /*media query*/
