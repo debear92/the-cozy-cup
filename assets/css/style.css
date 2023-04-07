@@ -324,32 +324,6 @@ footer h3 {
 
 /*menu page*/
 
-.menu-container { 
-    height: 37.5rem;
-    width: 100%;
-    overflow: hidden;
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-#container-coffee {
-    background: url('../images/menu-page-background.jpeg') no-repeat center center;
-}
-
-.menu-row {
-    display: flex;
-    flex-direction: row;
-    gap: 15rem;
-}
-
-#menu-col {
-    width: 100%;
-}
-
 /*media query*/
 @media only screen and (max-width: 1455px) {
     body{
