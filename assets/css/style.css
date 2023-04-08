@@ -323,23 +323,28 @@ footer h3 {
 }
 
 /*menu page*/
-#drinks-menu {
-    background: url('../images/coffee-menu.webp') no-repeat center center;
+.menu-card-section {
     width: 100%;
     overflow: hidden;
-    height: 50rem;
+    min-height: 37.5rem;
     padding: 1rem;
 }
 
+.menu-card-section h2 {
+    font-size: 230%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
 .menu-card-container {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 70rem;
     margin: auto;
     align-items: flex-start;
-    padding-top: 12.6rem;
+    padding: 0 1.25rem;
 }
 
 .menu-card-container div {
@@ -360,7 +365,7 @@ footer h3 {
     background-color: rgba(168, 116, 90, 0.72);
     flex: 0 1 21.875rem;
     margin: 1.56rem auto;
-    height: 22rem;
+    height: 24rem;
 }
 
 .menu-card-column li {
@@ -382,16 +387,9 @@ footer h3 {
     border-radius: 0;
     margin: 0.8rem;
     padding-top: 1rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
-#baked-goods {
-    background: url('../images/food-menu3.webp') no-repeat center center;
-    width: 100%;
-    overflow: hidden;
-    height: 50rem;
-    padding: 1rem;
-}
 /*media query*/
 @media only screen and (max-width: 1455px) {
     body{
