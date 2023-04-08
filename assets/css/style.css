@@ -323,7 +323,49 @@ footer h3 {
 }
 
 /*menu page*/
+#menu-card-section {
+    background: url('../images/menu-page-background.jpeg') no-repeat center center;
+    width: 100%;
+    overflow: hidden;
+    height: 50rem;
+    padding: 1rem;
+}
 
+.menu-card-container {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 75rem;
+    margin: 0 auto;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.menu-card-container div {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.menu-card-column {
+    background-color: rgba(212, 156, 129, 0.44);
+    flex: 0 21.875rem;
+    margin: auto;
+}
+
+.menu-card-column li {
+    list-style-type: none;
+    font-size: 120%;
+}
+
+.menu-card-header {
+    text-transform: uppercase;
+    font-size: 160%;
+    padding-top: 1rem;
+    letter-spacing: 0.25rem;
+}
 /*media query*/
 @media only screen and (max-width: 1455px) {
     body{
