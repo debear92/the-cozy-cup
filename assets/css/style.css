@@ -323,7 +323,7 @@ footer h3 {
 }
 
 /*menu page*/
-#menu-card-section {
+#drinks-menu {
     background: url('../images/coffee-menu.webp') no-repeat center center;
     width: 100%;
     overflow: hidden;
@@ -357,7 +357,7 @@ footer h3 {
 }
 
 .menu-card-column {
-    background-color: rgba(168, 116, 90, 0.42);
+    background-color: rgba(168, 116, 90, 0.72);
     flex: 0 1 21.875rem;
     margin: 1.56rem auto;
     height: 22rem;
@@ -383,6 +383,14 @@ footer h3 {
     margin: 0.8rem;
     padding-top: 1rem;
     font-weight: 400;
+}
+
+#baked-goods {
+    background: url('../images/food-menu3.webp') no-repeat center center;
+    width: 100%;
+    overflow: hidden;
+    height: 50rem;
+    padding: 1rem;
 }
 /*media query*/
 @media only screen and (max-width: 1455px) {
