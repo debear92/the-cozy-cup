@@ -336,10 +336,10 @@ footer h3 {
     flex-flow: row wrap;
     text-align: center;
     justify-content: space-between;
-    max-width: 75rem;
-    margin: 0 auto;
+    max-width: 70rem;
+    margin: auto;
     align-items: flex-start;
-    padding: 1rem;
+    padding-top: 12.6rem;
 }
 
 .menu-card-container div {
@@ -349,15 +349,25 @@ footer h3 {
     justify-content: space-between;
 }
 
+.menu-card-container * {
+    margin: 0 0.625rem;
+    flex: 1 100%;
+    border-radius: 10%;
+    text-align: left;
+}
+
 .menu-card-column {
     background-color: rgba(212, 156, 129, 0.44);
-    flex: 0 21.875rem;
-    margin: auto;
+    flex: 0 1 21.875rem;
+    margin: 1.56rem auto;
+    height: 22rem;
 }
 
 .menu-card-column li {
     list-style-type: none;
     font-size: 120%;
+    color: #1f2937;
+    font-weight: 600;
 }
 
 .menu-card-header {
@@ -365,6 +375,14 @@ footer h3 {
     font-size: 160%;
     padding-top: 1rem;
     letter-spacing: 0.25rem;
+}
+
+.menu-card-footer { 
+    border-top: 0.25rem solid #552b15;
+    border-radius: 0;
+    margin: 0.8rem;
+    padding-top: 1rem;
+    font-weight: 400;
 }
 /*media query*/
 @media only screen and (max-width: 1455px) {
