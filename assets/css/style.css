@@ -390,6 +390,37 @@ footer h3 {
     font-weight: 600;
 }
 
+#call-to-action {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#call-to-action h3 {
+    font-size: 150%;
+    font-weight: 600;    
+}
+
+#call-to-action a {
+    text-decoration: none;
+    background-color: #d49c81;
+    border: 1px solid #552b15;
+    border-radius: 5px;
+    color: #7e4e36;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.875rem;
+}
+
+#call-to-action a:hover {
+    background-color: #7e4e36;
+    color: #d49c81;
+    border: 2px solid;
+}
 /*media query*/
 @media only screen and (max-width: 1455px) {
     body{
