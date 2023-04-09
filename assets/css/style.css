@@ -442,6 +442,19 @@ footer h3 {
     height: 25rem;
     padding: 0.3rem;
 }
+
+/*click and collect page*/
+#click-and-collect-section {
+    width: 100%;
+    overflow: hidden;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 /*media query*/
 @media only screen and (max-width: 1455px) {
     body{
