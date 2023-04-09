@@ -459,6 +459,7 @@ footer h3 {
     font-size: 230%;
     padding-top: 3rem;
     padding-bottom: 1rem;
+    text-align: center;
 }
 
 .click-and-collect-form {
@@ -525,7 +526,8 @@ footer h3 {
     height: 37.5rem;
     width: 100%;
     overflow: hidden;
-    padding: 1rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -533,6 +535,14 @@ footer h3 {
     align-items: center;
 }
 
+#thank-you-container {
+    text-align: center;
+}
+
+#thank-you-container h2 {
+    font-size: 230%;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
 }
 /*media query*/
 @media only screen and (max-width: 1455px) {
