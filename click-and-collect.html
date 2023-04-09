@@ -37,12 +37,56 @@
     <section id="click-and-collect-section">
         <h2>Click and Collect</h2>
         <form action="thank-you.html" method="get" class="click-and-collect-form">
-            <label for="">Full Name</label>
-            <input type="text" id="" name="">
-            <label for=""></label>
-            <input type="tel">
-            <label for="">Date & Time of Collection</label>
-            <input type="datetime-local" id="" name="">
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="fname" required>
+            <br>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br>
+            <label for="date-time">Date & Time of Collection</label>
+            <input type="datetime-local" id="date-time" name="date-time" required>
+            <br>
+            <label for="food-options">Select Food</label>
+            <select name="food-options" id="food-options" multiple>
+                <option value="plain-bagel">Plain Bagel</option>
+                <option value="everything-bagel">Everything Bagel</option>
+                <option value="ham-cheese-toast">Ham and Cheese Toastie</option>
+                <option value="chicken-bacon-ciabatta">Chicken and Bacon Ciabatta</option>
+                <option value="ham-mozzarella-flatbread">Parma Ham and Mozzarella Flatbread</option>
+                <option value="avocado-toast">Avocado Toast</option>
+                <option value="pizza-slice">Pizza Slice</option>
+                <option value="carrot-cake">Carrot Cake</option>
+                <option value="cinnamon-role">Cinnamon Roll</option>
+                <option value="lime-coconut-bar">Lime Frosted Coconut Bar</option>
+                <option value="chocolate-brownie">Double Chocolate Brownie</option>
+                <option value="coffee-cake">Coffee Cake</option>
+                <option value="lemon-loaf">Iced Lemon Loaf</option>
+                <option value="banana-bread">Banana Bread</option>
+            </select>
+            <br>
+            <label for="drinks-option">Choose your drink</label>
+            <select name="drinks-option" id="drinks-option" multiple>
+                <option value="espresso">Espresso</option>
+                <option value="espresso-macchiato">Espresso Macchiato</option>
+                <option value="cappuccino">Cappuccino</option>
+                <option value="latte">Latte</option>
+                <option value="americano">Americano</option>
+                <option value="mocha">Mocha</option>
+                <option value="flat-white">Flat White</option>
+                <option value="tea">Tea (write your flavour in the comment section)</option>
+                <option value="iced-caramel-macchiato">Iced Caramel Macchiato</option>
+                <option value="iced-pistacchio-latte">Iced Pistacchio Latte</option>
+                <option value="oat-shaken-espresso">Oat Shaken Espresso</option>
+                <option value="dragonfruit-tea">Iced Dragonfruit Tea</option>
+                <option value="pink-lemonade">Pink Lemonade</option>
+                <option value="milkshake">Milkshake (write your flavour in the comment section)</option>
+                <option value="iced-moka">Iced Moka</option>
+            </select>
+            <br>
+            <label for="comment">Any additional comment?</label>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Leave a comment here!"></textarea>
+            <br>
+            <input type="submit">
         </form>
         <div id="click-and-collect-terms">
             <p>Click and collect term and condition</p>
