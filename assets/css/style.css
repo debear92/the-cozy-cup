@@ -421,6 +421,7 @@ footer h3 {
     color: #d49c81;
     border: 2px solid;
 }
+
 /*media query*/
 @media only screen and (max-width: 1455px) {
     body{
