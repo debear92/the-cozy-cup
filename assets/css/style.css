@@ -498,6 +498,28 @@ footer h3 {
     color: #d49c81;
     background-color: #552B15;
 }
+
+#terms-and-condition-section {
+    padding: 3rem;
+}
+
+#click-and-collect-terms {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border: 3px solid #552b15;
+    border-radius: 1rem;
+}
+
+#click-and-collect-terms h3 {
+    font-size: 150%;
+    padding-bottom: 2rem;
+}
+#click-and-collect-terms  li {
+    list-style-type: none;
+    line-height: 1.75rem;
+}
+
 /*media query*/
 @media only screen and (max-width: 1455px) {
     body{
