@@ -422,6 +422,26 @@ footer h3 {
     border: 2px solid;
 }
 
+/*gallery page*/
+#gallery {
+    padding: 2rem;
+}
+
+.gallery-container {
+    display: flex;
+    width: 100%;
+    max-width: 1600px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    padding-top: 3.5rem;
+}
+
+.gallery-container img {
+    width: 31.25rem;
+    height: 25rem;
+    padding: 0.3rem;
+}
 /*media query*/
 @media only screen and (max-width: 1455px) {
     body{
