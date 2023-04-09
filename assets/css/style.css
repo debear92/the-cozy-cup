@@ -466,14 +466,38 @@ footer h3 {
         flex-direction: column;
         background-color: rgba(168, 116, 90, 0.72);
         padding: 5rem;
-        border-radius: 10%;
+        border-radius: 5rem;
 }
 
 .click-and-collect-form label {
     font-size: 150%;
     font-weight: 400;
+    color: #552B15;
 }
 
+.click-and-collect-form input {
+    height: 2rem;
+    border: 1px solid #552B15;
+    border-radius: 1rem;
+}
+
+.click-and-collect-form option {
+    color: #7e4e36;
+}
+
+#submit {
+    height: 4rem;
+    font-size: 120%;
+    font-weight: 600;
+    color: #552B15;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #d49c81;
+}
+
+#submit:hover {
+    color: #d49c81;
+    background-color: #552B15;
+}
 /*media query*/
 @media only screen and (max-width: 1455px) {
     body{

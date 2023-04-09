@@ -37,16 +37,16 @@
     <section id="click-and-collect-section">
         <h2>Click and Collect</h2>
         <form action="thank-you.html" method="get" class="click-and-collect-form">
-            <label for="fname">Full Name</label>
+            <label for="fname">Full Name:</label>
             <input type="text" id="fname" name="fname" required>
             <br>
-            <label for="phone">Phone Number</label>
+            <label for="phone">Phone Number:</label>
             <input type="tel" id="phone" name="phone" required>
             <br>
-            <label for="date-time">Date & Time of Collection</label>
+            <label for="date-time">Date & Time of Collection:</label>
             <input type="datetime-local" id="date-time" name="date-time" required>
             <br>
-            <label for="food-options">Select Food</label>
+            <label for="food-options">Select Food:</label>
             <select name="food-options" id="food-options" multiple>
                 <option value="plain-bagel">Plain Bagel</option>
                 <option value="everything-bagel">Everything Bagel</option>
@@ -64,7 +64,7 @@
                 <option value="banana-bread">Banana Bread</option>
             </select>
             <br>
-            <label for="drinks-option">Choose your drink</label>
+            <label for="drinks-option">Choose your drink:</label>
             <select name="drinks-option" id="drinks-option" multiple>
                 <option value="espresso">Espresso</option>
                 <option value="espresso-macchiato">Espresso Macchiato</option>
@@ -86,10 +86,18 @@
             <label for="comment">Any additional comment?</label>
             <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Leave a comment here!"></textarea>
             <br>
-            <input type="submit">
+            <input type="submit" id="submit">
         </form>
         <div id="click-and-collect-terms">
-            <p>Click and collect term and condition</p>
+            <h3>Terms & Condition</h3>
+            <ul>
+                <li>Orders can only be placed online through our website for Click and Collect. We do not accept orders via phone, email or any other means.</li>
+                <li>Click and Collect orders will be available for collection during our opening hours. Please check our website for our current opening hours.</li>
+                <li>Orders must be placed at least 30 minutes before the desired collection time. Orders placed less than 30 minutes before the desired collection time may not be fulfilled.</li>
+                <li>If you need to change or cancel your order, please contact us as soon as possible. Changes or cancellations may not be possible if your order has already been prepared.</li>
+                <li>We will do our best to have your order ready for collection at the specified time. However, we cannot guarantee that your order will be ready at the exact time specified due to unforeseen circumstances, such as high demand or technical issues.</li>
+                <li>All Click and Collect orders are subject to availability. If we are unable to fulfill your order for any reason, we will contact you as soon as possible to arrange a refund.</li>
+            </ul>
         </div>
     </section>
     <footer>
