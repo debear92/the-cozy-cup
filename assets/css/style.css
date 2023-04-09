@@ -455,6 +455,25 @@ footer h3 {
     align-items: center;
 }
 
+#click-and-collect-section h2{
+    font-size: 230%;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.click-and-collect-form {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(168, 116, 90, 0.72);
+        padding: 5rem;
+        border-radius: 10%;
+}
+
+.click-and-collect-form label {
+    font-size: 150%;
+    font-weight: 400;
+}
+
 /*media query*/
 @media only screen and (max-width: 1455px) {
     body{
