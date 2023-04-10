@@ -209,6 +209,9 @@ h1, h2, h3 {
     align-items: center;
 }
 
+
+
+
 /*footer*/
 footer {
     height: 18.67rem;
@@ -466,7 +469,7 @@ footer h3 {
         display: flex;
         flex-direction: column;
         background-color: rgba(168, 116, 90, 0.72);
-        padding: 5rem;
+        padding: 2rem;
         border-radius: 5rem;
 }
 
@@ -566,6 +569,7 @@ footer h3 {
 
 #lost-page img {
     padding: 3rem;
+    max-width: 100%;
 }
 
 #lost-page a {
