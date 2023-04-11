@@ -444,17 +444,19 @@ footer h3 {
 #click-and-collect-section {
     width: 100%;
     overflow: hidden;
+}
+
+.flex-container {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #click-and-collect-section h2{
     font-size: 230%;
     padding-top: 3rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
     text-align: center;
 }
 
@@ -494,6 +496,11 @@ footer h3 {
 #submit:hover {
     color: #d49c81;
     background-color: #552B15;
+}
+
+#flex-map iframe {
+    width: 30.95rem;
+    height: 51.25rem;
 }
 
 #terms-and-condition-section {
