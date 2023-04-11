@@ -27,7 +27,6 @@ h1, h2, h3 {
     font-size: 200%;
     text-decoration: none;
     float: left;
-    margin-left: 1.875rem;
 }
 
 #menu, #logo #reservation {
@@ -43,8 +42,8 @@ h1, h2, h3 {
 }
 
 #menu li {
-    float: left;
     list-style-type: none;
+    float: left;
     margin-left: 1.875rem;
     margin-top: 1rem;
 }
@@ -596,10 +595,6 @@ footer h3 {
 
 /*media query*/
 @media only screen and (max-width: 1455px) {
-    body{
-        max-width: 1200px;
-    }
-
     #hero-text {
         height: 20%;
     }
@@ -635,25 +630,22 @@ footer h3 {
 }
 
 @media only screen and (max-width: 1075px) {
-    body{
-        max-width: 1000px;
-    }
-
     #card-container {
         width: 100%;
         height: auto;
+        padding-top: 1rem;
     }
 
     .flip-card-back h2 {
         font-size: 1.3em;
     }
+
+    #card-four {
+        padding-top: 1.875rem;
+    }
 }
 
 @media only screen and (max-width: 875px) {
-    body {
-        max-width: 700px;
-    }
-
     #first-block-container p {
         padding-right: 0;
     }
@@ -664,15 +656,11 @@ footer h3 {
 }
 
 @media only screen and (max-width: 650px) {
-    body {
-        max-width: 400px;
-    }
-
     #logo {
         font-size: 150%;
         text-align: center;
     }
-
+    
     #menu{
         float: none;
         margin-left: 0;
@@ -716,6 +704,7 @@ footer h3 {
         padding-top: 1rem;
     }
 
+    
     #footer-container {
         float: none;
         text-align: center;
@@ -752,4 +741,3 @@ footer h3 {
         padding-top: 2rem;
     }
 }
-
