@@ -26,7 +26,6 @@ h1, h2, h3 {
 #logo {
     font-size: 200%;
     text-decoration: none;
-    float: left;
 }
 
 #menu, #logo #reservation {
@@ -667,6 +666,7 @@ footer h3 {
     #logo {
         font-size: 150%;
         text-align: center;
+        float: none;
     }
     
     #menu{
