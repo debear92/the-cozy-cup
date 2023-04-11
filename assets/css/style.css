@@ -329,7 +329,6 @@ footer h3 {
     width: 100%;
     overflow: hidden;
     min-height: 37.5rem;
-    padding: 1rem;
 }
 
 .menu-card-section h2 {
@@ -425,9 +424,6 @@ footer h3 {
 }
 
 /*gallery page*/
-#gallery {
-    padding: 2rem;
-}
 
 .gallery-container {
     display: flex;
@@ -449,7 +445,6 @@ footer h3 {
 #click-and-collect-section {
     width: 100%;
     overflow: hidden;
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -503,7 +498,7 @@ footer h3 {
 }
 
 #terms-and-condition-section {
-    padding: 3rem;
+    padding: 1rem;
 }
 
 #click-and-collect-terms {
