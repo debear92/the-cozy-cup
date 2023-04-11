@@ -431,15 +431,15 @@ footer h3 {
 .gallery-container {
     display: flex;
     width: 100%;
-    max-width: 1600px;
+    overflow: hidden;
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 3.5rem;
 }
 
 .gallery-container img {
-    max-width: 31.25rem;
-    height: 25rem;
+    max-width: 28.125rem;
+    height: 22.5rem;
     padding: 0.3rem;
 }
 
@@ -758,5 +758,13 @@ footer h3 {
     #flex-map iframe {
         width: 20rem;
         height: 30rem;
+    }
+
+    #lost-page {
+        padding-top: 3rem;
+    }
+
+    #lost-page img {
+        padding: 1.5rem;
     }
 }
