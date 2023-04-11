@@ -535,12 +535,18 @@ footer h3 {
 
 #thank-you-container {
     text-align: center;
+    width: 100%;
 }
 
 #thank-you-container h2 {
     font-size: 230%;
     padding-top: 3rem;
     padding-bottom: 1rem;
+}
+
+#thank-you-container img {
+    max-width: 100%;
+    padding-top: 3rem;
 }
 
 /*404 page*/
