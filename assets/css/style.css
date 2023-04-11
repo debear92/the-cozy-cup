@@ -280,7 +280,6 @@ footer h3 {
 #our-story {
     width: 100%;
     overflow: hidden;
-    padding: 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -295,7 +294,7 @@ footer h3 {
 }
 
 #our-story img {
-    width: 25rem;
+    width: 22.265rem;
     height: 17.68rem;
 }
 
@@ -307,14 +306,19 @@ footer h3 {
     float: left;
 }
 
+#first-block-container {
+    width: 95%;
+}
+
 #first-block-container p {
     line-height: 1.75rem;
     padding-right: 30rem;
 }
 
 #second-block-container {
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 5rem;
+    width: 95%;
 }
 
 #second-block-container p {
@@ -655,10 +659,12 @@ footer h3 {
 @media only screen and (max-width: 875px) {
     #first-block-container p {
         padding-right: 0;
+        padding-top: 20rem;
     }
 
     #second-block-container p {
         padding-left: 0;
+        padding-top: 20rem;
     }
 }
 
@@ -712,7 +718,6 @@ footer h3 {
         padding-top: 1rem;
     }
 
-    
     #footer-container {
         float: none;
         text-align: center;
