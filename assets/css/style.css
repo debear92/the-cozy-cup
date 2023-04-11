@@ -501,6 +501,7 @@ footer h3 {
 #flex-map iframe {
     width: 30.95rem;
     height: 51.25rem;
+    padding: 2rem;
 }
 
 #terms-and-condition-section {
@@ -746,5 +747,10 @@ footer h3 {
         float: none;
         text-align: center;
         padding-top: 2rem;
+    }
+
+    #flex-map iframe {
+        width: 20rem;
+        height: 30rem;
     }
 }
