@@ -26,6 +26,7 @@ h1, h2, h3 {
 #logo {
     font-size: 200%;
     text-decoration: none;
+    float: left;
 }
 
 #menu, #logo #reservation {
@@ -570,6 +571,7 @@ footer h3 {
     justify-content: center;
     align-items: center;
 }
+
 
 #lost-page h2 {
     font-size: 230%;
