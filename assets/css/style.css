@@ -27,6 +27,7 @@ h1, h2, h3 {
     font-size: 200%;
     text-decoration: none;
     float: left;
+    padding-left: 1rem;
 }
 
 #menu, #logo #reservation {
@@ -39,6 +40,7 @@ h1, h2, h3 {
     letter-spacing: 0.125rem;
     margin-left: 1.875rem;
     float: right;
+    padding-right: 2rem;
 }
 
 #menu li {
@@ -255,11 +257,13 @@ footer h3 {
 .footer-left {
     float: left;
     text-align: left;
+    padding-left: 2rem;
 }
 
 .footer-right {
     float: right;
     text-align: right;
+    padding-right: 2rem;
 }
 
 .footer-center {
@@ -427,7 +431,6 @@ footer h3 {
 }
 
 /*gallery page*/
-
 .gallery-container {
     display: flex;
     width: 100%;
@@ -732,6 +735,7 @@ footer h3 {
     .footer-left{
         float: none;
         text-align: center;
+        padding-left: 0;
     }
 
     .footer-center{
@@ -742,6 +746,7 @@ footer h3 {
     .footer-right{
         float: none;
         text-align: center;
+        padding-right: 0;
     }
 
     .footer-left{
