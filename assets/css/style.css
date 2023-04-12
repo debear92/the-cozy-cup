@@ -667,6 +667,11 @@ footer h3 {
         padding-left: 0;
         padding-top: 20rem;
     }
+
+    #our-story img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 650px) {
