@@ -80,6 +80,8 @@ The Cozy Cup is a website for a fictional coffee shop based in Cork, Ireland. Th
 
 # Testing
 
+# Bug/Issues
+
 # Deployment
 
 # Credits
