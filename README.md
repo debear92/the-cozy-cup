@@ -1,4 +1,4 @@
-![Mock ups](assets/images/readme/responsive-mockup.PNG)
+![Mock ups](assets/images/readme/am-i-responsive.PNG)
 
 [View the live project here](https://debear92.github.io/the-cozy-cup/)
 
