@@ -48,13 +48,41 @@ The Cozy Cup is a website for a fictional coffee shop based in Cork, Ireland. Th
 # Features
 
 ## Navigation Bar
+
+![Navigation Bar](assets/images/readme/nav-bar.PNG)
+
 ## Landing Page
+
+![Landing Page](assets/images/readme/landing-page.PNG)
+
 ## About Us 
+
+![About Us Page](assets/images/readme/about-us.PNG)
+
 ## Menu
+![Menu Page](assets/images/readme/menu.PNG)
+
 ## Gallery
+
+![Gallery Page](assets/images/readme/gallery.PNG)
+
 ## Click and Collect
+
+![Click and Collect Page](assets/images/readme/click-and-collect.PNG)
+
 ## Thank You Page 
-## 404
+![Thank You Page](assets/images/readme/thank-you.PNG)
+
 ## Responsivness
 ## Features To Implement
+
+# Technologies Used 
+
+# Testing
+
+# Deployment
+
+# Credits
+
+# Aknowledgments
 
