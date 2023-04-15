@@ -21,9 +21,17 @@ The Cozy Cup is a website for a fictional coffee shop based in Cork, Ireland. Th
   - [Features to implement](#features-to-implement)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
+  - [Validator](#validator)
+  - [Lightouse](#lighthouse)
+  - [Accessibility](#accessibility)
 - [Bugs/Issues](#bugsissues)
+  - [Fixed](#fixed)
+  - [Unfixed](#unfixed)
 - [Deployment](#deployment)
 - [Credits](#credits)
+  - [Media](#media)
+  - [Content](#content)
+  - [Code](#code)
 - [Acknowledgements](#acknowledgements)
 
 # User Experience
@@ -135,9 +143,11 @@ The Cozy Cup is a website for a fictional coffee shop based in Cork, Ireland. Th
 - [Github](https://github.com/) - to store the repository of the website.
 - [Github Pages](https://pages.github.com/) - to deploy and host the website.
 - [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - to troubleshoot issues and test responsivness through various screen sizes.
-- [Convertio](https://convertio.co/webp-jpg/) - to convert all images to webp.
+- [Convertio](https://convertio.co/webp-jpg/) - to convert all images to webp..
 - [Tiny PNG](https://tinypng.com/) - to compress images.
 - [Favicon](https://favicon.io/) - to create favicon of the website.
+- [Canva](https://www.canva.com/) - to design the favicon and 404 image.
+- [ColorSpace](https://mycolor.space/) - to generate color pallet.
 - [Google Fonts](https://fonts.google.com/) - to import the fonts used in the website.
 - [Am I Responsive?](https://ui.dev/amiresponsive) - to show responsivness of the website across multiple devices.
 
@@ -224,9 +234,47 @@ All pages were test through Wave for accessibility
 
 # Bugs/Issues
 
+## Fixed
+
+- When I first deployed the website on Github pages I noticed an issue on mobile devices where all the pages where zooming in when loading. This was due to to width of the main page section being set to 100% with a padding of 1rem. Simply removing the padding fixed the issue. 
+- The submit button in the Click and Collect page was changing language according to the device language, this was fixed by setting a value=Submit to the button. 
+- I was getting a low performance score on Lighthouse for the homepage and the gallery due to the size and orientation of the images. To fix this I converted all the images in webp and compressed the size. I also changed the images for the flipcard choosing images that were already square so to avoid the different orientation error. 
+
+## Unfixed
+
+- Currently the users can select a date in the past when submitting the click and collect form. This bug can be easilly fixed with the support of JavaScript, but that would be outside of the scope of this project.
+
 # Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab.
+  - From the source section drop-down menu, select the Master Branch.
+  - Once you've selected your branch and root directory, click "Save" to deploy your website. GitHub will generate a URL where your website will be hosted (usually in the format username.github.io/repository-name).
+
+The live link can be found here - [Live Website](https://debear92.github.io/the-cozy-cup/index.html).
 
 # Credits
 
+## Media
+
+- Images for the homepage, about us and gallery were taken from [Pexels](https://www.pexels.com/) 
+- The GIF in the Thank You page was taken from [GIPHY](https://giphy.com/stickers/coffee-morning-good-U2SEgCvadzuSrEmS1l)
+- The Favicon and the image of the 404 page were designed by myself using [Canva](https://www.canva.com/)
+- The incons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+## Content
+
+- The menu in the menu page was inspired by [Starbuks menu](https://www.starbucks.ie/)
+- The Our Story page content was written with [Chat GPT](https://chat.openai.com/chat) and edited to suit my project
+
+## Code
+
+- The Flipcard code was taken from [W3 Schools](https://www.w3schools.com/howto/howto_css_flip_card.asp) and personalised to suit my project
+- I used a Youtube video from [Cem Eygi Media](https://www.youtube.com/watch?v=QmZNFnqwu74) to create the gallery page
+- Used [Kevin Poweell](https://www.youtube.com/@KevinPowell) videos as aid to better understand Flexbox
+
 # Aknowledgments
+
+I would like to thank my mentor [Spencer Barriball](https://github.com/5pence) for his support and all his helpful feedbacks during the development of his project and the Slack community at the Code Institute for their great support, special mention to [Carl Murray](https://github.com/CarlMurray).
+A big thank you goes to my brother [Davide](https://github.com/Dave0x21) for always being patient with my million questions and for always making me strive for the best.
 
