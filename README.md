@@ -168,6 +168,7 @@ To test my website I have opened it on different devices, to see if it was worki
   - iOS
 
 
+
   |Action | Expected behavious | Result|
   |-------|--------------------|-------|
   |Copy url of the browser and paste it in browser. Press enter | Browser should load index.html | Pass |
