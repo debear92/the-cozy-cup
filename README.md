@@ -17,6 +17,8 @@ The Cozy Cup is a website for a fictional coffee shop based in Cork, Ireland. Th
   - [Gallery](#gallery)
   - [Click and Collect](#click-and-collect)
   - [Thank You Page](#thank-you-page)
+  - [Responsivness](#responsivness)
+  - [Features to implement](#features-to-implement)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
 - [Bugs/Issues](#bugsissues)
@@ -114,11 +116,111 @@ The Cozy Cup is a website for a fictional coffee shop based in Cork, Ireland. Th
 ![Thank You Page](assets/images/readme/thank-you.PNG)
 
 ## Responsivness
+
+- The website was built to be fully responsive on screens from 300px wide and above.
+- The responsivness has been reached with the use of different methods, mainly media queries and the use of flexbox.
+
 ## Features To Implement
+
+- Stripe Payment on the website so that users only need to collect the order when they get to the cafè. At the moment, they can only place the order online but have to pay for it in store.
+- Convert the images in the Gallery page to Modal Images with the use of Javascript.
+- Implement cache policy to speed up repeat visits as suggested in Lighthouse report.
 
 # Technologies Used 
 
+- Wireframes were designed in [Balsamiq](https://balsamiq.com/).
+- The website is built only using HTML and CSS.
+- A Javascript script is being used for the [Font Awesome](https://fontawesome.com/) icons used in the footer.
+- [Gitpod](https://gitpod.io/) - to write the code.
+- [Github](https://github.com/) - to store the repository of the website.
+- [Github Pages](https://pages.github.com/) - to deploy and host the website.
+- [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - to troubleshoot issues and test responsivness through various screen sizes.
+- [Convertio](https://convertio.co/webp-jpg/) - to convert all images to webp.
+- [Tiny PNG](https://tinypng.com/) - to compress images.
+- [Favicon](https://favicon.io/) - to create favicon of the website.
+- [Google Fonts](https://fonts.google.com/) - to import the fonts used in the website.
+- [Am I Responsive?](https://ui.dev/amiresponsive) - to show responsivness of the website across multiple devices.
+
+
 # Testing
+
+To test my website I have opened it on different devices, to see if it was working as expected.
+
+- Browser tested:
+  - Chrome
+  - Firefox
+  - Edge
+  - Safari
+
+- Operating systems:
+  - Windows
+  - Android
+  - iOS
+
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Copy url of the browser and paste it in browser. Press enter | Browser should load index.html | Pass |
+  |Scale up the window | The contentent should not stretch over a certain size | Pass |
+  |Scale down the window | The contentent should be visible without having to scroll horizontally | Pass |
+  |Click on each page on the navbar. | Ensure the correct page opens. | Pass |
+  |Click on each link. | The page should open in a new tab. | Pass |
+  |Click on the email and phone number on the footer. | Email or phone app opens. | Pass |
+  |Fill the click and collect form. | Form should not be submitted without name and phone number. | Pass |
+  -------
+
+## Validator
+
+- HTML
+  - No errors were returned when passing the final version through the official [W3 Validator](https://validator.w3.org/)
+
+  ![HTML validator](assets/images/readme/html-validator.PNG)
+
+- CSS
+  - No errors were found when passing the final version through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+
+   <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+   </p>
+
+## Lighthouse
+
+Every page was tested through Lighthouse for both desktop and mobile.
+
+<details>
+  <summary>Desktop</summary>
+
+  ![Lighthouse Homepage Desktop](assets/images/readme/lighthouse-home-desktop.PNG)
+  ![Lighthouse About Us Desktop](assets/images/readme/lighthouse-about-us-desktop.PNG)
+  ![Ligthouse Menu Desktop](assets/images/readme/lighthouse-menu-desktop.PNG)
+  ![Lighthouse Gallery Desktop](assets/images/readme/lighthouse-gallery-desktop.PNG)
+  ![Ligthouse Click and Collect Desktop](assets/images/readme/lighthouse-click-and-collect-desktop.PNG)
+  ![Lightouse Thank You Desktop](assets/images/readme/lighthouse-thank-you-desktop.PNG)
+
+</details>
+
+<details>
+  <summary>Mobile</summary>
+
+  ![Lighthouse Homepage Mobile](assets/images/readme/lighthouse-home-mobile.PNG)
+  ![Lighthouse About Us Mobile](assets/images/readme/lighthouse-about-us-mobile.PNG)
+  ![Ligthouse Menu Mobile](assets/images/readme/lighthouse-menu-mobile.PNG)
+  ![Lighthouse Gallery Mobile](assets/images/readme/lighthouse-gallery-mobile.PNG)
+  ![Ligthouse Click and Collect Mobile](assets/images/readme/lighthouse-click-and-collect-mobile.PNG)
+  ![Lightouse Thank You Mobile](assets/images/readme/lighthouse-thank-you-mobile.PNG)
+
+  
+</details>
+
+## Accessibility
+
+All pages were test through Wave for accessibility
+
+![Wave test result](assets/images/readme/wave.PNG)
 
 # Bugs/Issues
 
