@@ -4,8 +4,6 @@
     margin: 0;
     padding: 0;
     border: none;
-    --webkit-appearance: none;
-    appearance: none;
 }
 
 body {
@@ -488,6 +486,11 @@ footer h3 {
     height: 2rem;
     border: 1px solid #552B15;
     border-radius: 1rem;
+}
+
+select {
+    --webkit-appearance: none;
+    appearance: none;
 }
 
 .click-and-collect-form option {
