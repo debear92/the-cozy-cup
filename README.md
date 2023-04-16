@@ -1,4 +1,4 @@
-![Mock ups](assets/images/readme/am-i-responsive.PNG)
+![Mock ups](readme/am-i-responsive.PNG)
 
 [View the live project here](https://debear92.github.io/the-cozy-cup/)
 
@@ -48,16 +48,16 @@ The Cozy Cup is a website for a fictional coffee shop based in Cork, Ireland. Th
 
 - To guide the development of the website wireframes were designed through [Balsamiq](https://balsamiq.com/). These wireframe were only an initial guide and some features appear different in the final product. For example, I decided not to put an image as background of the menu page as I found it made the menu very difficult to read. 
 
-![Home Wireframe](assets/images/readme/home-desktop.PNG)
-![About Us Wireframe](assets/images/readme/about-us-desktop.PNG)
-![Menu Wireframe](assets/images/readme/menu-desktop.PNG)
-![Gallery Wireframe](assets/images/readme/gallery-desktop.PNG)
-![Click And Collect Wireframe](assets/images/readme/click-and-collect-desktop.PNG)
-![Mobile Wireframe](assets/images/readme/mobile-wireframe.PNG)
+![Home Wireframe](readme/home-desktop.PNG)
+![About Us Wireframe](readme/about-us-desktop.PNG)
+![Menu Wireframe](readme/menu-desktop.PNG)
+![Gallery Wireframe](readme/gallery-desktop.PNG)
+![Click And Collect Wireframe](readme/click-and-collect-desktop.PNG)
+![Mobile Wireframe](readme/mobile-wireframe.PNG)
 
 - A color pallet was generated using [ColorSpace](https://mycolor.space/). I started from a brown color as it recalls the color of the coffee beans that are the main subject of "The Cozy Cup" website. 
 
-![Color Pallet](assets/images/readme/color-pallet.png)
+![Color Pallet](readme/color-pallet.png)
 
 - Two fonts were paired togheter for the website. Poppins was used in all the heading and the logo, while DM Sansa was used in the text of the page. The two fonts were chosen on [Google Fonts](https://fonts.google.com/).
 
@@ -71,7 +71,7 @@ The Cozy Cup is a website for a fictional coffee shop based in Cork, Ireland. Th
 - The order of the pages on the navigation bar follows the steps of the customer journey: awarness, consideration, purchase.
 - To allow the user to easily orientate in the website and immediately understand which page they are on, the active page is visually highlighted.
 
-![Navigation Bar](assets/images/readme/nav-bar.PNG)
+![Navigation Bar](readme/nav-bar.PNG)
 
 ## Landing Page
 
@@ -79,34 +79,34 @@ The Cozy Cup is a website for a fictional coffee shop based in Cork, Ireland. Th
 - The hero section contains a call to action to visit the menu page.
 - The flip-cards communicate the business core values in a short sentence.
 
-![Landing Page](assets/images/readme/landing-page.PNG)
+![Landing Page](readme/landing-page.PNG)
 
 ## Footer
 
 - In this section of the page users can easily find opening hours of the business, the address, the contact information and the social media links. All the links will open to a new tab to allow easy navigation for the user.
 - The information are present in every page of the website  to allow the user to easily locate them without having to look for them.
 
-![Footer](assets/images/readme/footer.PNG)
+![Footer](readme/footer.PNG)
 
 ## About Us 
 
 - The site has an About Us page that contains the story of the Cozy Cup, how it was born and how it grew through the years.
 - The second part of the About Us page contains the business promise to its customers.
 
-![About Us Page](assets/images/readme/about-us.PNG)
+![About Us Page](readme/about-us.PNG)
 
 ## Menu
 
 - The Menu page is divided in two sections: Drinks and Food
 - There is a call to action "Order now" at the end of the page to redirect the user to the last phase of they customer journey: purchase.
 
-![Menu Page](assets/images/readme/menu.PNG)
+![Menu Page](readme/menu.PNG)
 
 ## Gallery
 
 - The Gallery is like a visual menu where potential customers can view what some of the items on the menu looks like.
 
-![Gallery Page](assets/images/readme/gallery.PNG)
+![Gallery Page](readme/gallery.PNG)
 
 ## Click and Collect
 
@@ -115,13 +115,13 @@ The Cozy Cup is a website for a fictional coffee shop based in Cork, Ireland. Th
 - There is a map beside the form to show the customer exactly where to collect the order.
 - Terms and condition for the service are clearly reported at the end of the page.
 
-![Click and Collect Page](assets/images/readme/click-and-collect.PNG)
+![Click and Collect Page](readme/click-and-collect.PNG)
 
 ## Thank You Page 
 
 - After submitting the form the user is presented with a Thank You page providing the order number that they can use for collection. 
 
-![Thank You Page](assets/images/readme/thank-you.PNG)
+![Thank You Page](readme/thank-you.PNG)
 
 ## Responsivness
 
@@ -185,7 +185,7 @@ To test my website I have opened it on different devices, to see if it was worki
 - HTML
   - No errors were returned when passing the final version through the official [W3 Validator](https://validator.w3.org/)
 
-  ![HTML validator](assets/images/readme/html-validator.PNG)
+  ![HTML validator](readme/html-validator.PNG)
 
 - CSS
   - No errors were found when passing the final version through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
@@ -205,24 +205,24 @@ Every page was tested through Lighthouse for both desktop and mobile.
 <details>
   <summary>Desktop</summary>
 
-  ![Lighthouse Homepage Desktop](assets/images/readme/lighthouse-home-desktop.PNG)
-  ![Lighthouse About Us Desktop](assets/images/readme/lighthouse-about-us-desktop.PNG)
-  ![Ligthouse Menu Desktop](assets/images/readme/lighthouse-menu-desktop.PNG)
-  ![Lighthouse Gallery Desktop](assets/images/readme/lighthouse-gallery-desktop.PNG)
-  ![Ligthouse Click and Collect Desktop](assets/images/readme/lighthouse-click-and-collect-desktop.PNG)
-  ![Lightouse Thank You Desktop](assets/images/readme/lighthouse-thank-you-desktop.PNG)
+  ![Lighthouse Homepage Desktop](readme/lighthouse-home-desktop.PNG)
+  ![Lighthouse About Us Desktop](readme/lighthouse-about-us-desktop.PNG)
+  ![Ligthouse Menu Desktop](readme/lighthouse-menu-desktop.PNG)
+  ![Lighthouse Gallery Desktop](readme/lighthouse-gallery-desktop.PNG)
+  ![Ligthouse Click and Collect Desktop](readme/lighthouse-click-and-collect-desktop.PNG)
+  ![Lightouse Thank You Desktop](readme/lighthouse-thank-you-desktop.PNG)
 
 </details>
 
 <details>
   <summary>Mobile</summary>
 
-  ![Lighthouse Homepage Mobile](assets/images/readme/lighthouse-home-mobile.PNG)
-  ![Lighthouse About Us Mobile](assets/images/readme/lighthouse-about-us-mobile.PNG)
-  ![Ligthouse Menu Mobile](assets/images/readme/lighthouse-menu-mobile.PNG)
-  ![Lighthouse Gallery Mobile](assets/images/readme/lighthouse-gallery-mobile.PNG)
-  ![Ligthouse Click and Collect Mobile](assets/images/readme/lighthouse-click-and-collect-mobile.PNG)
-  ![Lightouse Thank You Mobile](assets/images/readme/lighthouse-thank-you-mobile.PNG)
+  ![Lighthouse Homepage Mobile](readme/lighthouse-home-mobile.PNG)
+  ![Lighthouse About Us Mobile](readme/lighthouse-about-us-mobile.PNG)
+  ![Ligthouse Menu Mobile](readme/lighthouse-menu-mobile.PNG)
+  ![Lighthouse Gallery Mobile](readme/lighthouse-gallery-mobile.PNG)
+  ![Ligthouse Click and Collect Mobile](readme/lighthouse-click-and-collect-mobile.PNG)
+  ![Lightouse Thank You Mobile](readme/lighthouse-thank-you-mobile.PNG)
 
   
 </details>
@@ -231,7 +231,7 @@ Every page was tested through Lighthouse for both desktop and mobile.
 
 All pages were tested through [Wave](https://wave.webaim.org/) for accessibility
 
-![Wave test result](assets/images/readme/wave.PNG)
+![Wave test result](readme/wave.PNG)
 
 # Bugs/Issues
 
@@ -240,7 +240,7 @@ All pages were tested through [Wave](https://wave.webaim.org/) for accessibility
 - When I first deployed the website on Github pages I noticed an issue on mobile devices where all the pages where zooming in when loading. This was due to to width of the main page section being set to 100% with a padding of 1rem. Simply removing the padding fixed the issue. 
 - The submit button in the Click and Collect page was changing language according to the device language, this was fixed by setting a value=Submit to the button. 
 
-![Click and collect button](assets/images/readme/invia.jpg)
+![Click and collect button](readme/invia.jpg)
 
 - I was getting a low performance score on Lighthouse for the homepage and the gallery due to the size and orientation of the images. To fix this I converted all the images in webp and compressed the size. I also changed the images for the flipcard choosing images that were already square to avoid the different orientation error. 
 
@@ -250,7 +250,7 @@ All pages were tested through [Wave](https://wave.webaim.org/) for accessibility
 
 - In iOS devices the dropdown options of the form in the Click and Collect page display as blue, this is apparently a known issue as reported [here](https://stackoverflow.com/questions/1895476/how-do-i-style-a-select-dropdown-with-only-css). Unfortunately, I haven't been able to fix it only using CSS setting `-webkit-appearance: none;` and `appearance: none;` There are more options to explore with JavaScript, but that would be outside of the scope of this project.
 
-![Blue options on dropdown](assets/images/readme/blue-options.PNG)
+![Blue options on dropdown](readme/blue-options.PNG)
 
 # Deployment
 
