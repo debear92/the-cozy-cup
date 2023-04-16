@@ -248,7 +248,7 @@ All pages were tested through [Wave](https://wave.webaim.org/) for accessibility
 
 - Currently the users can select a date in the past when submitting the click and collect form. This bug can be easilly fixed with the support of JavaScript, but that would be outside of the scope of this project.
 
-- In iOS devices the dropdown options of the form in the Click and Collect page display as blue, this is apparently a known issue as reported [here](https://stackoverflow.com/questions/1895476/how-do-i-style-a-select-dropdown-with-only-css). Unfortunately, I haven't been able to fix it only using CSS setting -webkit-appearance: none; and appearance: none; There are more options to explore with JavaScript, but that would be outside of the scope of this project.
+- In iOS devices the dropdown options of the form in the Click and Collect page display as blue, this is apparently a known issue as reported [here](https://stackoverflow.com/questions/1895476/how-do-i-style-a-select-dropdown-with-only-css). Unfortunately, I haven't been able to fix it only using CSS setting `-webkit-appearance: none;` and `appearance: none;` There are more options to explore with JavaScript, but that would be outside of the scope of this project.
 
 ![Blue options on dropdown](assets/images/readme/blue-options.PNG)
 
