@@ -146,7 +146,7 @@ The Cozy Cup is a website for a fictional coffee shop based in Cork, Ireland. Th
 - [Convertio](https://convertio.co/webp-jpg/) - to convert all images to webp..
 - [Tiny PNG](https://tinypng.com/) - to compress images.
 - [Favicon](https://favicon.io/) - to create favicon of the website.
-- [Canva](https://www.canva.com/) - to design the favicon and 404 image.
+- [Canva](https://www.canva.com/) - to design the favicon, thank you page image and 404 image.
 - [ColorSpace](https://mycolor.space/) - to generate color pallet.
 - [Google Fonts](https://fonts.google.com/) - to import the fonts used in the website.
 - [Am I Responsive?](https://ui.dev/amiresponsive) - to show responsivness of the website across multiple devices.
@@ -266,8 +266,7 @@ The live link can be found here - [Live Website](https://debear92.github.io/the-
 ## Media
 
 - Images for the homepage, about us and gallery were taken from [Pexels](https://www.pexels.com/) 
-- The GIF in the Thank You page was taken from [GIPHY](https://giphy.com/stickers/coffee-morning-good-U2SEgCvadzuSrEmS1l)
-- The Favicon and the image of the 404 page were designed by myself using [Canva](https://www.canva.com/)
+- The Favicon, the image in the thank you page and the image of the 404 page were designed by myself using [Canva](https://www.canva.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ## Content
@@ -283,6 +282,6 @@ The live link can be found here - [Live Website](https://debear92.github.io/the-
 
 # Aknowledgments
 
-I would like to thank my mentor [Spencer Barriball](https://github.com/5pence) for his support and all his helpful feedbacks during the development of his project.
+I would like to thank my mentor [Spencer Barriball](https://github.com/5pence) for his support and all his helpful feedbacks during the development of this project.
 A big thank you goes also to my brother [Davide](https://github.com/Dave0x21) for always being patient with my million questions and for always making me want to strive for the best.
 
